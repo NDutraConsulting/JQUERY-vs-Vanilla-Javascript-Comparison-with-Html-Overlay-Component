@@ -1,0 +1,86 @@
+#overlay-details-wrapper {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  position: fixed;
+  z-index:4;
+}
+
+#clickable-background{
+  position:absolute;
+  top:0%;
+  left:-2rem;
+  width: 105%;
+  height: 100%;
+  background: black;
+  opacity:.3;
+  z-index:4;
+}
+
+#overlay-details-content{
+  position:relative;
+  top:10%;
+  width:80%;
+  height:100%;
+  background: white;
+  display:inline-block;
+  z-index:6;
+  border-radius: 25px;
+}
+
+#overlay-details{
+  position:absolute;
+  top:4rem;
+  height:70%;
+  overflow: scroll;
+  padding:2rem;
+}
+
+.closeBtn{
+  position:absolute;
+  right:2rem;
+  top:1.5rem;
+}
+
+.out{
+  top:100%;
+}
+
+.slideIn {
+  display:block;
+  -webkit-animation: slideUp .75s ; /* Safari 4.0 - 8.0 */
+  animation: slideUp .75s ;
+  transition-timing-function: ease;
+  top:0%;
+}
+
+.slideOut{
+  -webkit-animation: slideDown .75s ; /* Safari 4.0 - 8.0 */
+  animation: slideDown 1s ;
+  transition-timing-function: ease-in;
+  top:100%;
+}
+
+
+@keyframes slideDown {
+    from {top: 0%;}
+    to {top: 100%;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes slideDown {
+  from {top: 0%;}
+  to {top: 100%;}
+}
+
+
+@keyframes slideUp {
+    from {top: 100%;}
+    to {top: 0%;}
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes slideUp {
+  from {top: 100%;}
+  to {top: 0%;}
+}
