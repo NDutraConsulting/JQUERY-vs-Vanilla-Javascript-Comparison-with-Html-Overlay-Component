@@ -12,4 +12,4 @@ of JQuery and Vanilla JavaScript.
 #### V 1.0.0
 Under Development
 ### Authors
-[Nikko Dutra]
+[Nikko Dutra Bouck]
