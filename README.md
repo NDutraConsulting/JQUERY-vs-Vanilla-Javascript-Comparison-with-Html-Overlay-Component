@@ -5,8 +5,8 @@ of JQuery and Vanilla JavaScript.
 
 ### Screenshot
 
-[-] Javascript overlay.js File [-]
-[-] JQuery overlay-jquery.js File [-]
+- [X] Javascript overlay.js File
+- [X] JQuery overlay-jquery.js File
 
 ### Changelog
 #### V 1.0.0
