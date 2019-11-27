@@ -13,7 +13,7 @@ function initOverlayButtons(){
       let overlay_obj = new overlay( action );
 
       btn.onclick = function(){ overlay_obj.animate(); };
-      
+
     }
 }
 
@@ -36,4 +36,5 @@ class overlay{
 
 }
 
+//Note object oriented option that you get when using vanilla js class
 let slideOut = new overlay('slideOut');
