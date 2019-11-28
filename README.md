@@ -7,6 +7,8 @@ of JQuery and Vanilla JavaScript.
 
 - [X] Javascript overlay.js File
 - [X] JQuery overlay-jquery.js File
+- [ ] Add Demo
+- [ ] Add AJAX
 
 ### Changelog
 #### V 1.0.0
